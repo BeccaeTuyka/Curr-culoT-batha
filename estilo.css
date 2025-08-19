@@ -8,8 +8,8 @@
 
 /* Corpo geral */
 body {
-    background-color: #f9f9f9;
-    color: #333;
+    background-color: #9412b4;
+    color: #0f0f0f;
     line-height: 1.6;
     padding-bottom: 50px;
 }
@@ -27,8 +27,8 @@ body {
 
 /* Navegação */
 nav {
-    background-color: #1f4e79;
-    padding: 15px 20px;
+    background-color: #fc9a07;
+    padding: 20px 25px;
     justify-content: center;
 }
 
@@ -40,7 +40,7 @@ nav ul {
 }
 
 nav ul li a {
-    color: #fff;
+    color: #ff0505;
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s;
@@ -52,7 +52,7 @@ nav ul li a:hover {
 
 /* Cabeçalhos */
 h1, h2, h3 {
-    color: #1f4e79;
+    color: #ff0505;
     margin-bottom: 10px;
 }
 
@@ -65,10 +65,10 @@ h1, h2, h3 {
 }
 
 .card {
-    background: #fff;
+    background: #dd0e9f;
     border-radius: 15px;
     padding: 20px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 10px rgb(252, 248, 248);
     transition: transform 0.2s ease;
 }
 
@@ -104,18 +104,18 @@ th, td {
 }
 
 thead {
-    background-color: #1f4e79;
+    background-color: #dd0e9f;
     color: #fff;
 }
 
 tbody tr:nth-child(even) {
-    background-color: #f2f2f2;
+    background-color: #f5de0d;
 }
 
 /* Rodapé */
 footer {
-    background-color: #1f4e79;
-    color: #fff;
+    background-color: #fc9a07;
+    color: #fa0303;
     text-align: center;
     padding: 15px 10px;
     position: fixed;
